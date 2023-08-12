@@ -32,7 +32,7 @@ g-1
 
 
 
-DZ
+# DZ
 def is_palindrome(s):
     return s == s[::-1]
 
