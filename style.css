@@ -1,0 +1,42 @@
+h1 {
+    background: red;
+}
+
+.p1 {
+    background: rgb(153, 153, 245);
+    font-size: 32pt;
+    color: rgba(255, 0, 0, 0.985);
+}
+
+.p2 {
+    border: 10px solid yellow;
+    border-radius: 5px;
+    font-size: 24pt;
+    margin-bottom: 60px;
+    padding-left: 40px;
+}
+
+.p3 {
+    font-weight: 900;
+    font-size: 24px;
+    font-family: Courier New;
+}
+
+
+
+/* 
+background - задний фон 
+font-size - размер шрифта
+font-weight - жирность шрифта (100 до 900 вкл)
+font-family - стиль шрифта
+color - цвет прифта
+border - рамка вокруг элемента, 10px - толщина рамки, solid (непрерывная линия) - тип линии
+border-radius - закругление рамки
+мargin - пнешний отступ
+padding - внутренний отступ
+bottom - нижняя граница блока
+left - левая граница блока
+right - правая граница блока 
+top - верхняя граница блока 
+*/
+
