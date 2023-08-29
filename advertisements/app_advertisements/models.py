@@ -10,6 +10,8 @@ class Advertisement(models.Model):
     update_at = models.DateTimeField(auto_now=True)
     class Meta:
         db_table = 'advertisements'
+    def __str__(self):
+        return f"Advertisement(id={self.id}, title='{self.title}', price={self.price:.2f})"
 
 
 
