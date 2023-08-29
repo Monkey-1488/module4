@@ -8,15 +8,9 @@ class Advertisement(models.Model):
     auction = models.BooleanField('Торг', help_text='Укажите, возможен ли торг')
     create_at = models.DateTimeField(auto_now_add=True)
     update_at = models.DateTimeField(auto_now=True)
+    class Meta:
+        db_table = 'advertisements'
 
 
 
 
-"""
-Название
-Описание
-Цена
-Дата создания
-Дата обновления
-Торг
-"""
